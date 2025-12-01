@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color:rgb(237, 247, 237) ;
+}
+.header{
+    display:flex;
+    position: fixed;
+    background-color:#fff;
+    box-shadow: 0px 2px 10px black;
+    width: 100%;
+    padding: 30px;
+    color: green;                       
+}
+.header_h1{
+    margin-left: 100px; 
+}
+.header_navbar_a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: green;
+}
+.header_navbar_a:hover{
+    -webkit-text-stroke-width: 1px;
+}
+.header_navbar{
+    margin-left: 500px;
+    padding-top: 10px;
+}
+.hero{
+    padding-top:200px ;
+    display: flex;
+    justify-content: center;
+}
+.hero_contener,.hero_contener2{
+    color: green;
+    background-color:#fff ;
+    box-shadow:0 1px 7px black;
+    max-width: 500px;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 400px;
+    padding: 30px;
+    border-radius: 10px;
+}
+.hero_h2{
+    margin-top: 20px;
+    font-size: 35px;
+}
+.hero_h3{
+    margin-top: 20px;
+}
+.hero_contener_button{
+    color: green;
+    padding: 10px;
+    border-radius: 10px;
+    border-style: none;
+    box-shadow: 0px 2px 5px black;
+    margin-left: 10px;
+    margin-top: 20px;
+    transition: 0.5s;
+}
+.hero_contener_button:hover{
+    background-color: green;
+    color: white;
+    transition: 0.5s;
+}
+.hero_contener2_img{
+    width: 250px;
+    height: 130px;
+    border-radius: 20px;
+    box-shadow: 0px 2px 5px black;
+}
+.hero_contener2_ul_li{
+    margin-top:10px;
+}
+.heron_contener2_h4{
+    display: flex;
+}
+.heron_contener2_h4{
+    margin-top: 10px;
+}
+.hero_paragrf{
+    margin-top:20px;
+}
+.About{
+    margin-top: 150px;
+    text-align: center;
+    color: green;    
+}
+.About_h2{
+    margin-bottom: 20px;
+}
+.skils{
+     color: green;
+     margin-top: 100px;
+}
+.skils_h2{
+    text-align: center;
+    font-size: 30px;
+}
+.skils_visn{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.skils_visn_skil{
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 65px;
+    box-shadow: 0px 2px 5px black;
+    border-radius: 20px;
+    background-color: #fff;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+}
+.Contact{
+    margin-top: 120px;
+    color: green;
+}
+.Contact_container{
+    display: flex;  
+    justify-content: center;
+}
+.Contact_packs,.Contact_card{
+    background-color: #fff;
+    box-shadow: 0px 2px 5px black;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.lable_input{
+    width: 300px;
+    height: 25px;
+    box-shadow: 0px 2px 5px black;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+.Contact_label{
+    padding: 5px;
+}
+.Contact_card_list_li{
+    padding-top: 5px;
+}
+.Contact_h2{
+    text-align: center;
+}
+.Contact_form-btn{
+    background-color: #fff;
+    color: green;
+    border: none;
+    padding: 10px;
+    box-shadow: 0px 2px 5px black;
+    margin-top: 10px;
+    border-radius: 10px;
+    transition: 0.5s
+}
+.Contact_form-btn:hover{
+    background-color: green;
+    color: #fff;
+    transition: 0.5s
+}
